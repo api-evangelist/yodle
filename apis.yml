@@ -1,8 +1,24 @@
 aid: yodle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yodle.png
 name: Yodle
-description: 'Yodle is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Yodle was a New York-based local online marketing and lead-generation company for small
+  and medium-sized businesses, offering all-in-one advertising, web presence, and business-automation
+  products such as Marketing Essentials, Yodle Ads, and Lighthouse 360. Backed by Bessemer Venture
+  Partners, it was acquired by Web.com in February 2016 for roughly $342 million and no longer operates
+  as a standalone brand — its technology was folded into Web.com, now part of Newfold Digital. Yodle
+  exposes no public developer API, developer portal, or SDKs; api.yodle.com is an internal, auth-gated
+  endpoint (HTTP 401) and the legacy www.yodle.com site is effectively defunct.'
 url: https://raw.githubusercontent.com/api-evangelist/yodle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Vertical Software
+- Local Marketing
+- Advertising
+- Lead Generation
+- Marketing Automation
+- Small Business
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/yodle-domain-security.yml
 - type: Website
   url: http://www.yodle.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
