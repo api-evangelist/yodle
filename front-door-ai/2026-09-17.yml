@@ -1,0 +1,31 @@
+# Front Door AI Index — yodle — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: yodle
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.yodle.com
+  final_host: enspireforenterprise.com
+  ownership: own
+  owner: yodle
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 13
+  host_score: 13
+  density: 8.4
+  words: 1548
+  tiers:
+    agentic: 1
+    core: 5
+    model: 7
+  ambiguous: 5
+  top_terms:
+    AI: 5
+    ChatGPT: 4
+    OpenAI: 3
+    intelligence: 3
+    fine-tune: 1
+    predictive: 1
+    smart: 1
