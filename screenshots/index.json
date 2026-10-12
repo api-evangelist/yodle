@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "yodle",
+    "captured_at": "2026-10-11T193908",
+    "source_url": "http://www.yodle.com",
+    "source_type": "Website",
+    "file": "yodle-2026-10-11T193908.png",
+    "bytes": 110131,
+    "capture": "playwright-local"
+  }
+]
